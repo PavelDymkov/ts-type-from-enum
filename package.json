@@ -1,0 +1,29 @@
+{
+    "name": "ts-type-from-enum",
+    "version": "0.7.0",
+    "description": "A library for build typescript types by an enum.",
+    "author": {
+        "name": "Pavel Dymkov",
+        "email": "dymkov86@gmail.com"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/PavelDymkov/ts-type-from-enum.git"
+    },
+    "keywords": [],
+    "bugs": {
+        "url": "https://github.com/PavelDymkov/ts-type-from-enum/issues"
+    },
+    "homepage": "https://github.com/PavelDymkov/ts-type-from-enum#readme",
+    "scripts": {
+        "prepublishOnly": "exit 1",
+        "pub": "packagr",
+        "test": "tsc --noEmit --project test/tsconfig.json"
+    },
+    "devDependencies": {
+        "npm-packagr": "^1.0.49",
+        "prettier": "^2.7.1",
+        "typescript": "^4.7.4"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "strict": true,
+        "target": "ES2022"
+    },
+
+    "include": ["cases/*.test.ts"],
+    "exclude": ["expect-failure"]
+}
