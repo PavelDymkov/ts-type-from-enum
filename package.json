@@ -1,6 +1,6 @@
 {
     "name": "ts-type-from-enum",
-    "version": "0.7.0",
+    "version": "0.7.1",
     "description": "A library for build typescript types by an enum.",
     "author": {
         "name": "Pavel Dymkov",

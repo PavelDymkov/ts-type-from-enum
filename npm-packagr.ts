@@ -22,6 +22,7 @@ npmPackagr({
         badge(BadgeType.Test),
 
         version("patch", {
+            commitHooks: true,
             message: "ts-type-from-enum",
             gitTagVersion: false,
         }),
