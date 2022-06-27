@@ -21,12 +21,12 @@ npmPackagr({
 
         badge(BadgeType.Test),
 
-        // version("patch", {
-        //     message: "ts-type-from-enum",
-        //     gitTagVersion: false,
-        // }),
+        version("patch", {
+            message: "ts-type-from-enum",
+            gitTagVersion: false,
+        }),
 
-        // git("push"),
+        git("push"),
 
         packageJSON((packageJson) => {
             delete packageJson.scripts;
